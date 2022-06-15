@@ -4,7 +4,7 @@
           <div class="row align-items-center">
               <div class="col-4">
                   <div class="boxlogo">
-                      <img src="" alt="logo">
+                      <img src="../../assets/img/logo-2.png" alt="logo">
                   </div>
               </div>
               <div class="col-8 d-flex justify-content-end">
@@ -16,9 +16,7 @@
                       <li>Contact us</li>
                       <li><i class="fa-solid fa-magnifying-glass"></i> <i class="fa-solid fa-cart-shopping"></i></li>
                       <li><button type="button" class="btn btn-primary">Get Started</button></li>
-                  </ul>
-                  
-                  
+                  </ul> 
               </div>
           </div>
       </div>
@@ -42,5 +40,7 @@ ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
 };
-
+img{
+    max-height: 2.375rem;
+}
 </style>
