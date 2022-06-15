@@ -58,6 +58,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+ul{
+    padding: 0;
+    margin: 0;
+    li {
+        padding-right: 2rem;
+        text-indent: 2rem;
+        font-size: smaller;
+    }
+}
 // ul {
 //     // display:flex;
 //     // align-items: center;
@@ -76,6 +85,9 @@ export default {
 
 //     color: var( --tertiary-colortext);
 // }
+img{
+    width:70%;
+}
 .fa-li{
     color: var( --tertiary-colortext);
 }
