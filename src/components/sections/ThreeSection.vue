@@ -14,30 +14,30 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-3">Customized Invoice
-                        <div><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="blue"><i class="fa-solid fa-chart-line"></i></div>
                     </div>
                     <div class="col-3">Stock Management
-                        <div><i class="fa-solid fa-paper-plane"></i></div>
+                        <div class="red"><i class="fa-solid fa-paper-plane"></i></div>
                     </div>
                     <div class="col-3">Receivable &amp; Payables
-                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="green"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
                     <div class="col-3">Manage Buyin
-                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="blue"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
                     <div class="col-3">Powerful &amp; Secure
-                        <div><i class="fa-solid fa-cloud"></i></div>
+                        <div class="red"><i class="fa-solid fa-cloud"></i></div>
                     </div>
                     <div class="col-3">Fastest return Filing
-                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="green"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
                     <div class="col-3">Montly Detailed
-                        <div><i class="fa-solid fa-file-signature"></i></div>
+                        <div class="blue"><i class="fa-solid fa-file-signature"></i></div>
                     </div>
                     <div class="col-3">Product Management
-                        <div><i class="fa-solid fa-thumbs-up"></i></div>
+                        <div class="red"><i class="fa-solid fa-thumbs-up"></i></div>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,25 @@ p{
     font-size: smaller;
 }
 .col-3{
-    padding: 2rem;
-    font-size: 2rem;
-}
-.fa-solid{
+    margin: 1rem;
+    padding: 1rem 3rem  2rem 1rem;
+    background-color:var(--primary-color);
+    box-shadow: 0px 0px 20px 5px var(--quinary-color);
+    max-width: calc(25% - 2rem);
+    div{
         font-size: 2rem;
+    }
+    .blue{
+        color:var(--tertiary-colortext);
+
+    }
+    .red{
+        color:var(--quaterny-colortext);
+    }
+    .green{
+        color:var(--secondary-colortext);
+    }
 }
+
 
 </style>
