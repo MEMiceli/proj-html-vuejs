@@ -93,6 +93,7 @@ img{
 }
 p{
     color:var(--quinary-colortext);
+    font-size: smaller;
 }
 
 ;

@@ -39,6 +39,7 @@ ul {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    font-size: smaller;
 };
 img{
     max-height: 2.375rem;

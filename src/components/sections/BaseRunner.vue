@@ -28,6 +28,7 @@ export default {
 }
 p{
     color:var(--quinary-colortext);
+    font-size: smaller;
 }
 img{
     width:100%;

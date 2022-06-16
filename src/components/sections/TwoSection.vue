@@ -11,7 +11,7 @@
                       <img src="../../assets/img/510.png" alt="graphic">
                   </div>
                   <div class="boxtext">
-                      <h6>Reporting Analysis</h6>
+                      <h6 class="blue">Reporting Analysis</h6>
                       <p>It is a long estabilised fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                   </div>
               </div>
@@ -43,6 +43,9 @@ export default {
 
 
 <style scoped lang="scss">
+.blue{
+    color:var(--tertiary-color);
+}
 p{
     color:var(--quinary-colortext);
 }
