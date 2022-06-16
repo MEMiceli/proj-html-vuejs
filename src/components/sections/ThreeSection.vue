@@ -61,10 +61,11 @@ export default {
 
 <style scoped lang="scss">
 .container-fluid{
+    padding-top: 5rem;
     background-image: url("../../assets/img/14.png");
-    background-size: 50%;
+    background-size: 25%;
     background-repeat: no-repeat;
-    background-position: -50% 50%;
+    background-position: -12.5% 50%;
     
 }
 p{
