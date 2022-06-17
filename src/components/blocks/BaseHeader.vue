@@ -9,11 +9,11 @@
               </div>
               <div class="col-8 d-flex justify-content-end">
                   <ul>
-                      <li>Home</li>
-                      <li>About us</li>
+                      <li v-for="(link, index) in links" :key="index"><a @click.prevent="onClickMenuItem(link)" :href="link.url" :class="{active : link.current}">{{link.text}}</a></li>
+                      <!-- <li>About us</li>
                       <li>Feature</li>
                       <li>Testimonials</li>
-                      <li>Contact us</li>
+                      <li>Contact us</li> -->
                       <li><i class="fa-solid fa-magnifying-glass"></i> <i class="fa-solid fa-cart-shopping"></i></li>
                       <li><button type="button" class="btn btn-primary">Get Started</button></li>
                   </ul> 
@@ -26,6 +26,33 @@
 <script>
 export default {
     name:'BaseHeader',
+    data(){
+        return{
+            links: [
+                {
+                text:"Home",
+                url: "#",
+                },
+                {
+                text:"About us",
+                url: "#",
+                },
+                {
+                text:"Feature",
+                url: "#",
+                },
+                {
+                text:"Testimonials",
+                url: "#",
+                },
+                {
+                text:"contact Us",
+                url: "#",
+                },
+            ]
+        }
+        
+    }
 
 }
 </script>
@@ -40,6 +67,10 @@ ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
     font-size: smaller;
+    a{
+        text-decoration: none;
+        color:var(--otonary-colortext);
+    }
 };
 img{
     max-height: 2.375rem;
