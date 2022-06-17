@@ -1,8 +1,8 @@
 <template>
   <div class="container">
       <div class="text-center">
-          <h4>Latest Posts</h4>
-      <p>If you are planning on developing a product landing.</p>
+        <h4>Latest Posts</h4>
+        <p>If you are planning on developing a product landing.</p>
       </div>
       <div class="row justify-content-between">
           <div class="col">
@@ -56,9 +56,10 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
+//need 1 position absolute//
 .text-center{
-    margin: 4rem auto;
+    margin: 4rem auto;    
 }
 .col{
     border:.0625rem solid var( --secondary-colorborder);
@@ -70,10 +71,11 @@ export default {
     img{
         width:100%;
     }
-}
 p{
     color:var(--quinary-colortext);
     font-size: smaller;
+    }
 }
+
 
 </style>
