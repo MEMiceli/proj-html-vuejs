@@ -42,14 +42,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-    </div>
-  
+    </div> 
 </template>
 
 <script>
@@ -91,7 +84,15 @@ p{
     .green{
         color:var(--secondary-colortext);
     }
+    &:hover{
+        background-color: #6CDAC1 !important;
+        color:white !important;
+    }
 }
-
+.hovercard:hover{
+    // background-color: var(--secondary--colortext) !important;
+    // color: var(--primary--colortext) !important;
+    // background-color: black;
+}
 
 </style>
