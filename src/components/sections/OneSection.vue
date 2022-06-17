@@ -96,6 +96,4 @@ p{
     font-size: smaller;
 }
 
-;
-
 </style>
