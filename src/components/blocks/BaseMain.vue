@@ -6,6 +6,7 @@
       <ThreeSection/>
       <FourthSection/>
       <FiftySection/>
+      <SixthSection/>
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import TwoSection from '../sections/TwoSection.vue'
 import ThreeSection from '../sections/ThreeSection.vue'
 import FourthSection from '../sections/FourthSection.vue'
 import FiftySection from '../sections/FiftySection.vue'
+import SixthSection from '../sections/SixthSection.vue'
 export default {
     name: 'BaseMain',
     components: {
@@ -25,6 +27,7 @@ export default {
     ThreeSection,
     FourthSection,
     FiftySection,
+    SixthSection,
     
     
   }
