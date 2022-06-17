@@ -15,28 +15,28 @@
             </div>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-3">Customized Invoice
+                    <div class="col-3 hovercard">Customized Invoice
                         <div class="blue"><i class="fa-solid fa-chart-line"></i></div>
                     </div>
-                    <div class="col-3">Stock Management
+                    <div class="col-3 hovercard">Stock Management
                         <div class="red"><i class="fa-solid fa-paper-plane"></i></div>
                     </div>
-                    <div class="col-3">Receivable &amp; Payables
-                        <div class="green"><i class="fa-solid fa-user-tie"></i></div>
+                    <div class="col-3 hovercard">Receivable &amp; Payables
+                        <div class="green hovercard"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
-                    <div class="col-3">Manage Buyin
+                    <div class="col-3 hovercard">Manage Buyin
                         <div class="blue"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
-                    <div class="col-3">Powerful &amp; Secure
+                    <div class="col-3 hovercard">Powerful &amp; Secure
                         <div class="red"><i class="fa-solid fa-cloud"></i></div>
                     </div>
-                    <div class="col-3">Fastest return Filing
+                    <div class="col-3 hovercard">Fastest return Filing
                         <div class="green"><i class="fa-solid fa-user-tie"></i></div>
                     </div>
-                    <div class="col-3">Montly Detailed
+                    <div class="col-3 hovercard">Montly Detailed
                         <div class="blue"><i class="fa-solid fa-file-signature"></i></div>
                     </div>
-                    <div class="col-3">Product Management
+                    <div class="col-3 hovercard">Product Management
                         <div class="red"><i class="fa-solid fa-thumbs-up"></i></div>
                     </div>
                 </div>

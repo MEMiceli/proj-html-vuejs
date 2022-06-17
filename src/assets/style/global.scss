@@ -5,7 +5,7 @@
 .container{
     max-width: 1000px !important;
 }
-
+// button
 .btn-primary{
     background-color: var(--tertiary-color);
 
@@ -16,4 +16,7 @@
     color: var(--primary-colortext);
 
 }
-
+.hovercard:hover{
+    background-color: var(--secondary--colortext);
+    color: var(--primary--colortext);
+}
