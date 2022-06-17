@@ -35,7 +35,7 @@ export default {
 ul {
     display:flex;
     align-items: center;
-    gap:2rem;
+    gap:1.5rem;
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */

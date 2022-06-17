@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-12">
                                 <!-- <input type="text" class="form-control" placeholder="Your Message"> -->
-                                <textarea placeholder="Your Message" rows="10" cols="40"></textarea>
+                                <textarea placeholder="Your Message" rows="10" cols="38"></textarea>
                             </div>
                             <div class="button"><button type="button" class="btn btn-primary">Send Message</button></div>
                             
