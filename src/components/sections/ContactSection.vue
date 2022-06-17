@@ -64,10 +64,11 @@ export default {
     p{
     color:var(--quinary-colortext);
     font-size: smaller;
+    }
     a{
         text-decoration: none;
         color:inherit;
-    }
+    
     }
 }
 .row{
